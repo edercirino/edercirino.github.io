@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Inicializador de Conversas do Whatsapp</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="contentPad">
+        <h1>Ferramenta inicializadora de conversa no whatsapp</h1>
+    </div>
+
+    <div class="contentPad">
+        <h2>
+            Inicie conversas no whatsapp sem precisar adicionar o número em sua
+            lista de contatos
+        </h2>
+    </div>
+
+    <div class="contentPad">
+        <h3>Instruções de uso</h3>
+        <ol>
+            <li>Coloque o número de whatsapp no campo abaixo(incluindo o DDD).</li>
+            <li>Aperte o botão "Criar conversa".</li>
+        </ol>
+        <p>Pronto! sua conversa vai abrir no seu whatsapp.</p>
+    </div>
+
+    <div class="form">    
+        <form>
+
+            <input  type="tel"
+                    name="telWhatsapp"
+                    id="telWhatsapp"
+                    value=""
+                    placeholder="(00) 000000000"
+                    autofocus="{true}"/>
+
+            <input  type="submit"
+                    class="button"
+                    value="Criar Conversa"
+                    onclick="enviarMensagem
+                (document.getElementById('telWhatsapp').value)" />
+
+            <input class="button" type="reset" value="Redefinir"/>
+        </form>
+    </div>
+
+</body>
+</html>
