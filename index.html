@@ -21,32 +21,37 @@
         </h2>
     </div>
 
-    <div class="contentPad">
-        <h3>Instruções de uso</h3>
-        <ol>
-            <li>Coloque o número de whatsapp no campo abaixo(incluindo o DDD).</li>
-            <li>Aperte o botão "Criar conversa".</li>
-        </ol>
-        <p>Pronto! sua conversa vai abrir no seu whatsapp.</p>
+   <div class="contactName">
+       <input  type="text"
+            name="contactName"
+            id="contactName"
+            value=""
+            autofocus="{true}"
+            placeholder="Nome do contato"/>
     </div>
 
-    <div class="form">    
-        <form>
-            <input  type="tel"
-                    name="telWhatsapp"
-                    id="telWhatsapp"
-                    value=""
-                    placeholder="(00) 000000000"
-                    autofocus="{true}"/>
+    <div class="whatsappNumber">
+        <input  type="tel"
+            name="telWhatsapp"
+            id="whatsappNumber"
+            value=""
+            placeholder="(00) 000000000"/>
+    </div>
 
-            <input  type="submit"
-                    class="button"
-                    value="Criar Conversa"
-                    onclick="enviarMensagem
-                (document.getElementById('telWhatsapp').value)" />
-
-            <input class="button" type="reset" value="Redefinir"/>
-        </form>
+    <div class="enderecoIncompleto">    
+        <button 
+            id="enderecoIncompleto"
+            class="button">
+            Endereço Incompleto                
+        </button>  
+    </div>
+    
+    <div class="naoTemNoMapa">
+        <button
+            id="naoTemNoMapa"
+            class="button">
+            Não tem no mapa
+        </button>        
     </div>
 
 </body>

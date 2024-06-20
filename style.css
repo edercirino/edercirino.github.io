@@ -11,11 +11,7 @@
 
 .contentPad{
     padding-top: 20px;
-}
-
-.form{
-    padding-top: 20px;
-    border-radius: 1px;
+    padding-bottom: 20px;
 }
 
 .button{
@@ -31,6 +27,18 @@
 }
 
 input[type=tel]{
+    width:57%;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 20px;
+    text-decoration:  none;
+    margin: 4px 2px;
+    font-size: 16px;
+}
+
+input[type=text]{
     width:57%;
     color: #000;
     background-color: #fff;
