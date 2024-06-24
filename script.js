@@ -4,6 +4,7 @@ window.onload=function(){
     let btnEnderecoIncompleto = document.getElementById("enderecoIncompleto");
     let btnNaoTemNoMapa = document.getElementById("naoTemNoMapa");
     let btnAbrirConversa = document.getElementById("abrirConversa");
+    let bntLimpar = document.getElementById("limpar");
 
     btnEnderecoIncompleto.addEventListener('click', function(){
         let contactNameValue = contactName.value;
@@ -31,6 +32,14 @@ window.onload=function(){
 
         window.open("http://wa.me/55"+whatsappNumberValue);
     });
+
+    bntLimpar.addEventListener('click', function(){
+        let contactNameValue = contactName.value = '';
+        let whatsappNumberValue = whatsappNumber.value = '';
+
+    });
+
+
 }
 
  
