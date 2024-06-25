@@ -16,6 +16,7 @@
 }
 
 input[type=text]{
+    width: 200px;
     color: #000;
     background-color: #fff;
     border: none;
@@ -27,6 +28,7 @@ input[type=text]{
 }
 
 input[type=tel]{
+    width: 200px;
     color: #000;
     background-color: #fff;
     border: none;
@@ -35,14 +37,13 @@ input[type=tel]{
     text-decoration:  none;
     margin: 4px 2px;
     font-size: 16px;
-    margin-bottom: 10px;
+   
 }
 
 .inputPosition{
-    width: 260px;
-    margin-left: auto;
-    margin-right: auto;
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
 }
 
 .button{
