@@ -29,21 +29,21 @@ Project status: ✅ Done
 
 ### 🧐 Demonstration
 
-<h1 align=center>
+<h3 align=center>
 <img alt="Whatsapp No Contact" title="main page" src="./screenshots/mainPage.jpeg"
-</h1>
+</h3>
 
-<h1 align=center>
+<h3 align=center>
 <img alt="Whatsapp No Contact" title="main page" src="./screenshots/incompleteAdress.jpeg"
-</h1>
+</h3>
 
-<h1 align=center>
+<h3 align=center>
 <img alt="Whatsapp No Contact" title="main page" src="./screenshots/dontFindInTheMap.jpeg"
-</h1>
+</h3>
 
-<h1 align=center>
+<h3 align=center>
 <img alt="Whatsapp No Contact" title="main page" src="./screenshots/openChat.jpeg"
-</h1>
+</h3>
 
 ## 👩🏻‍💻 How to test this application
 
