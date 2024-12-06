@@ -9,9 +9,9 @@ window.onload=function(){
     btnEnderecoIncompleto.addEventListener('click', function(){
         let contactNameValue = contactName.value;
         let whatsappNumberValue = whatsappNumber.value;
-        let message = "Olá "+contactNameValue+". Aqui é entregadora Shopee "+
-        "responsável pela sua entrega *HOJE*. Porém seu endereço está "+
-        "*INCOMPLETO*.\n Informe a *Quadra* e *Lote* se possível, "+
+        let message = "Olá "+contactNameValue+". Aqui é entregador Shopee "+
+        "responsável pela sua entrega *HOJE*. Seu endereço está "+
+        "*INCOMPLETO*. e precisamos que nos informe a *Quadra* e *Lote*. Se possível "+
         "envie a *localização* para facilitar, por favor?";
 
         window.open("http://wa.me/55"+whatsappNumberValue+"?text="+message);
@@ -20,7 +20,7 @@ window.onload=function(){
     btnNaoTemNoMapa.addEventListener('click', function(){
         let contactNameValue = contactName.value;
         let whatsappNumberValue = whatsappNumber.value;
-        let message = "Olá "+contactNameValue+". Aqui é entregadora Shopee, "+
+        let message = "Olá "+contactNameValue+". Aqui é entregador Shopee, "+
         "não consegui localizar seu endereço no mapa. "+
         "Pode me mandar a *Localização* por favor?";
 
